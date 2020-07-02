@@ -3,7 +3,7 @@ import java.util.List;
 
 public class TestHSCScreenElements {
 
-    public static List<String> HSCRoleScreenDisplay = new ArrayList<String>();
+    public List<String> HSCRoleScreenDisplay = new ArrayList<String>();
 
     public TestHSCScreenElements() {
         /* Replace with JSON and XPATH */
@@ -30,7 +30,7 @@ public class TestHSCScreenElements {
         return this.HSCRoleScreenDisplay;
     }
 
-    private static void display() {
+    public void display() {
         for(int i=0; i<HSCRoleScreenDisplay.size(); i++) {
             System.out.print(HSCRoleScreenDisplay.get(i) + ", ");
         }

@@ -30,7 +30,7 @@ public class HSCRole {
         return this.HSCRoleFromDB;
     }
 
-    private static void display() {
+    public static void display() {
         for(int i=0; i<HSCRoleFromDB.size(); i++) {
             System.out.print(HSCRoleFromDB.get(i) + ", ");
         }

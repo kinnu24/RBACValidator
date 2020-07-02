@@ -42,7 +42,7 @@ public final class FTMConstants {
     public static final String OUTLIER_FLAGGING                  = "outlierFlagging";
     public static final String OUTLIER_FLAGGING_SCREEN_DISPLAY   = "Outlier Flagging";
 
-    public static List<String> convertScreenElementsWithIdealValues(List screenElements) {
+    public List<String> convertScreenElementsWithIdealValues(List<String> screenElements) {
         List<String> convertedScreenElements = new ArrayList<String>();
 
         for(int i=0; i<screenElements.size(); i++) {

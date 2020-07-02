@@ -3,7 +3,7 @@ import java.util.List;
 
 public class HCARole {
 
-    public static List<String> HCARoleFromDB = new ArrayList<String>();
+    public List<String> HCARoleFromDB = new ArrayList<String>();
 
     public HCARole() {
         /* Replace with DB Query */
@@ -23,7 +23,7 @@ public class HCARole {
         return this.HCARoleFromDB;
     }
 
-    private static void display() {
+    public void display() {
         for(int i=0; i<HCARoleFromDB.size(); i++) {
             System.out.print(HCARoleFromDB.get(i) + ", ");
         }
